@@ -1,0 +1,39 @@
+# JEEVAN Core Protocol - Git Ignore Rules for Private Backend Repository
+
+# Secrets & Environment Configurations
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+token.json
+client_secret*.json
+
+# Databases & Local Memory Stores
+*.db
+*.sqlite
+*.sqlite3
+.jeevan/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Build & Executable Artifacts
+dist/
+build/
+*.spec
+*.exe
+
+# OS / System Artifacts
+.DS_Store
+Thumbs.db
